@@ -1,0 +1,49 @@
+
+.wrapper .form-box.forgot {
+    position: absolute;
+    transition: none;
+    
+    transform: translateY(-400px);
+}
+
+.wrapper.active-forgot .form-box.forgot {
+    transition: transform .18s ease;
+    transform: translateY(0);
+    
+}
+
+.wrapper.active-forgot {
+    height: 320px;
+}
+
+.wrapper.active-forgot .form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrapper.active-forgot .form-box.forgot {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.userInfo {
+    background: transparent;
+    backdrop-filter: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.userContent {
+    display: grid;
+    background: transparent;
+    backdrop-filter: 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.userContentInfo img {
+
+    border-radius: 100px;
+}
